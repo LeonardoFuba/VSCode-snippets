@@ -10,7 +10,6 @@
 	 	"scope": "javascript,typescript",
 	 	"prefix": "expa",
 	 	"body": [
-			"const axios = require('axios');",
 			"$1",
 			"",
 			"module.exports = {",

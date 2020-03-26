@@ -10,9 +10,10 @@
 	 	"scope": "javascript,typescript",
 	 	"prefix": "get",
 	 	"body": [
-			"app.get('${1:/rota1}', (request, response) => {",
-			"	return response.json({ ${2:message: 'teste'} });",
-			" });",
+			"app.get('/${1:rota1}', (request, response) => {",
+			"	return response.json($2);",
+			"}",
+			");",
 	 	],
 	 	"description": "Create your GET template"
 	 }
