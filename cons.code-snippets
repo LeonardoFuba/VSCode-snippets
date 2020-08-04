@@ -7,7 +7,7 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	 "Snippet React Const Faster": {
-	 	"scope": "javascript,typescript",
+	 	"scope": "javascript,javascriptreact,typescript,typescriptreact",
 	 	"prefix": "cons",
 	 	"body": [
 			"const $1 = $2;",

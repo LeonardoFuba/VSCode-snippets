@@ -7,10 +7,10 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	 "Snippet Aero Function": {
-	 	"scope": "javascript,typescript",
+	 	"scope": "javascript, javascriptreact,typescript,typescriptreact",
 	 	"prefix": "af",
 	 	"body": [
-			"($1) => {$2}$0",
+			"() => {$1}$0",
 	 	],
 	 	"description": "Aero Function"
 	 }
